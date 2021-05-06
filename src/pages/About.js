@@ -3,15 +3,16 @@
 import React from 'react';
 import MobileNav from '../components/MobileNav';
 import Nav from "../components/Nav"
-// import // AboutSection TEXT
-
+import AboutSection from "../components/AboutSection";
+import Header from "../components/Header";
  
 function About () {
     return (
         <div>
             <Nav />
-        <MobileNav />
-        {/* // <AboutSection /> */}
+            <MobileNav />
+            <Header />
+            <AboutSection />
         </div>
     )
 }

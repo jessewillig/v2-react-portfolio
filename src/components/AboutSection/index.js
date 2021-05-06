@@ -10,7 +10,7 @@ function AboutSection () {
                 <div id="about-me-container">
                     <div id="about-me">
                         <Header title="About Me" />
-                        <img src={headShot} alt="jesse" style={{ width: 175 }} />
+                        <img src={headShot} alt="jesse" />
                         <p className="uk-text-justify about-me-desc">
                             Hi! I'm Jesse, I'm a full-stack web developer and designer. I spent
                             the last 8+ years of my career in customer service and the financial field. During my time in those industries I have learned how to creatively solve problems, organizing/prioritizing and strong written/oral communication skills
