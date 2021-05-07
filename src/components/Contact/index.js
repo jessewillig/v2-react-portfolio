@@ -26,7 +26,7 @@ function Contact() {
                         <a uk-icon="icon: github" href="https://github.com/jessewillig"
                             className="contact-icon contact-link-icon" target="_blank"></a>
                         <a className="contact-link contact-li uk-text-middle" href="https://github.com/jessewillig"
-                            target="_blank">jwillig-alt</a>
+                            target="_blank">jwillig</a>
                     </li>
                     <li>
                         <a uk-icon="icon: linkedin" href="https://www.linkedin.com/in/jessewillig/"

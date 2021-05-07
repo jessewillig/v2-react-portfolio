@@ -4,6 +4,7 @@ import "./index.css";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MobileNav from "./components/Nav/MobileNav";
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/portfolio" component={Portfolio} />
       <Route exact path="/skills" component={Skills} />
       <MobileNav />
+      <Contact />
       <Footer />
     </Router>
   )

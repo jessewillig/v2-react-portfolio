@@ -1,11 +1,11 @@
 import budgetTrackerPic from "../images/portfolio/budget.png";
-import fitnessTrackerPic1 from "../images/portfolio/fitnesstracker.png";
-import fitnessTrackerPic2 from "../images/portfolio/fitnesstracker2.png";
-import dankReviewsPic1 from "../images/portfolio/dank1.JPG";
+import fitnessTrackerPic from "../images/portfolio/fitnesstracker.png";
+// import fitnessTrackerPic from "../images/portfolio/fitnesstracker2.png";
+import dankReviewsPic from "../images/portfolio/dank.png";
 // import dankReviewsPic2 from "../images/portfolio/dank2.jpg";
 import noteTakerPic from "../images/portfolio/notetaker.png";
-import cureForBoredomPic1 from "../images/portfolio/cure1.png";
-import cureForBoredomPic2 from "../images/portfolio/cure2.png";
+import cureForBoredomPic from "../images/portfolio/cure.png";
+// import cureForBoredomPic from "../images/portfolio/cure2.png";
 import weatherAppPic from "../images/portfolio/weatherapp.png";
 
 function ProjectCard (title, about, imageUrl, siteUrl, repoUrl) {
@@ -28,8 +28,8 @@ const budgetTrackerCard = new ProjectCard(
 const fitnessTrackerCard = new ProjectCard(
     "Fitness Tracker",
     "With this fitness tracker the user can create custom workout plans and track them! This application utilizes Node JS, Express, and Mongoose DB. This app has full Create, Read and Update functionality for all entered info. For this application I used jQuery, Node.js and Mongoose.",
-    fitnessTrackerPic1,
-    fitnessTrackerPic2,
+    fitnessTrackerPic,
+    // fitnessTrackerPic2,
     "https://limitless-meadow-66832.herokuapp.com/",
     "https://github.com/jessewillig/fitness-tracker"
 );
@@ -37,7 +37,7 @@ const fitnessTrackerCard = new ProjectCard(
 const dankReviewsCard = new ProjectCard(
     "Dank Reviews",
     "Dank Reviews was designed to provide the user the opportunity to look at memes and review them! The user has the opportunity to view memes and their reviews and leave reviews on memes! For this project we used Bootstrap, Google Fonts, Heroku, Node.js, MySQL, NPM Packages - reddit.images, sequelize, bcrypt, dotenv, MySQL2, express handlebars & session.",
-    dankReviewsPic1,
+    dankReviewsPic,
     // dankReviewsPic2,
     "https://bootcamp-project2-uw.herokuapp.com",
     "https://github.com/jessewillig/Dank-Reviews"
@@ -54,8 +54,8 @@ const noteTakerCard = new ProjectCard(
 const cureForBoredomCard = new ProjectCard(
     "Cure For Boredom",
     "This application allows the user to be distracted from the current global pandemic with personalized entertainment. The user can choose to escape by clicking for jokes, Kanye West quotes, Google images, or the NASA image of the day. It was build using HTML, CSS, Bulma, Javascript, Server-side APIs.",
-    cureForBoredomPic1,
-    cureForBoredomPic2,
+    cureForBoredomPic,
+    // cureForBoredomPic2,
     "https://jessewillig.github.io/CureForBoredom/",
     "https://github.com/jessewillig/CureForBoredom"
 );
