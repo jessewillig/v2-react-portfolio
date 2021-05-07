@@ -4,12 +4,13 @@ import Header from "../components/Header";
 import CardContainer from "../components/CardContainer";
 import SkillCard from "../components/SkillCard";
 import { frontEnd, backEnd, languages } from "../utils/skills";
-// need to add import for BackgroundImage and import for imageUrl
+import BackgroundImage from "../components/BackgroundImage";
+import imageUrl from "../images/backgroundImage.jpg";
 
 function Skills () {
     return (
         <div>
-            {/* <BackgroundImage image={imageUrl} > */}
+            <BackgroundImage image={imageUrl} >
             <Nav />
             <Header padding={70} title="Technical Skills" />
             <CardContainer>
@@ -37,7 +38,7 @@ function Skills () {
                     />
                 </div>
             </CardContainer>
-        {/* </BackgroundImage> */}
+        </BackgroundImage>
         </div>
     )
 };

@@ -4,12 +4,13 @@ import Nav from "../components/Nav";
 import PortfolioCard from "../components/PortfolioCard";
 import CardContainer from "../components/CardContainer";
 import portfolioData from "../utils/portfolio";
-// need to add import for BackgroundImage and import for imageUrl
+import BackgroundImage from "../components/BackgroundImage";
+import imageUrl from "../images/backgroundImage.jpg";
 
 function Portfolio () {
     return (
         <div>
-        {/* <BackgroundImage image={imageUrl} > */}
+        <BackgroundImage image={imageUrl} >
             <Nav />
             <Header padding={70} title="Portfolio" />
             <CardContainer>
@@ -19,16 +20,16 @@ function Portfolio () {
                             return <PortfolioCard
                                 title={el.title}
                                 about={el.about}
-                                repoURL={el.repoURL}
-                                siteURL={el.siteURL}
-                                imgURL={el.imgURL}
+                                repoUrl={el.repoUrl}
+                                siteUrl={el.siteUrl}
+                                imgUrl={el.imgUrl}
                                 key={index}
                             />
                         })
                     }
                 </div>
             </CardContainer>
-        {/* </BackgroundImage> */}
+        </BackgroundImage>
         </div>
     )
 };
