@@ -8,3 +8,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.contact-icon:hover {
+    color: rgb(0, 188, 157) !important;
+}
+
+.name-footer {
+    color: white;
+}

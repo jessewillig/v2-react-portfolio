@@ -32,7 +32,7 @@ function Skills (props) {
                     <SkillCard
                         skills={languages}
                         title="Languages"
-                        icon="paint-bucket"
+                        icon="code"
                         name="languages"
                         animate="slide-right"
                     />

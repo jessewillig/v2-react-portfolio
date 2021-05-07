@@ -11,5 +11,9 @@
 }
 
 #contact-title {
-    color: white !important;
+    color: rgb(0, 188, 157) !important;
+}
+
+.contact-icon:hover, .contact-link:hover {
+    color: rgb(0, 188, 157) !important;
 }
