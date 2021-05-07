@@ -1,0 +1,26 @@
+.nav-item {
+    font-weight: 100;
+}
+
+.navbar {
+    background-color: transparent;
+    color: rgb(36, 40, 44)
+}
+
+.nav-item:hover, .menu-icon:hover {
+    color: rgb(0, 188, 157) !important;
+    font-weight: 300;
+}
+
+.menu-icon {
+    color: gray;
+    padding: 20px;
+}
+
+.mobile-nav-item {
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: 100;
+    color: rgb(202, 200, 200) !important;
+    text-transform: uppercase;
+}
