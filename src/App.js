@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 import Footer from "./components/Footer";
+import MobileNav from "./components/Nav/MobileNav";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/portfolio" component={Portfolio} />
       <Route exact path="/skills" component={Skills} />
-      <MobileMenu />
+      <MobileNav />
       <Footer />
     </Router>
   )

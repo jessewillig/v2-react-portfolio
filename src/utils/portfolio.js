@@ -1,11 +1,11 @@
 import budgetTrackerPic from "../images/portfolio/budget.png";
 import fitnessTrackerPic1 from "../images/portfolio/fitnesstracker.png";
 import fitnessTrackerPic2 from "../images/portfolio/fitnesstracker2.png";
-import dankReviewsPic1 from "../images/portfolio/dank-page1.jpg";
-import dankReviewsPic2 from "../images/portfolio/dank-page2.jpg";
+import dankReviewsPic1 from "../images/portfolio/dank1.JPG";
+// import dankReviewsPic2 from "../images/portfolio/dank2.jpg";
 import noteTakerPic from "../images/portfolio/notetaker.png";
-import cureForBoredomPic1 from "../images/portfolio/cure-page1.png";
-import cureForBoredomPic2 from "../images/portfolio/cure-page2.png";
+import cureForBoredomPic1 from "../images/portfolio/cure1.png";
+import cureForBoredomPic2 from "../images/portfolio/cure2.png";
 import weatherAppPic from "../images/portfolio/weatherapp.png";
 
 function ProjectCard (title, about, imageUrl, siteUrl, repoUrl) {
@@ -38,7 +38,7 @@ const dankReviewsCard = new ProjectCard(
     "Dank Reviews",
     "Dank Reviews was designed to provide the user the opportunity to look at memes and review them! The user has the opportunity to view memes and their reviews and leave reviews on memes! For this project we used Bootstrap, Google Fonts, Heroku, Node.js, MySQL, NPM Packages - reddit.images, sequelize, bcrypt, dotenv, MySQL2, express handlebars & session.",
     dankReviewsPic1,
-    dankReviewsPic2,
+    // dankReviewsPic2,
     "https://bootcamp-project2-uw.herokuapp.com",
     "https://github.com/jessewillig/Dank-Reviews"
 );
@@ -68,6 +68,6 @@ const weatherAppCard = new ProjectCard(
     "https://github.com/jessewillig/WeatherDashboard"
 );
 
-let portfolioData = [budgetTrackerCard, fitnessTrackerCard, dankReviewsCard, noteTakerCard, cureForBoredomCard, weatherAppCard];
+let portfolio = [budgetTrackerCard, fitnessTrackerCard, dankReviewsCard, noteTakerCard, cureForBoredomCard, weatherAppCard];
 
 export default portfolio;

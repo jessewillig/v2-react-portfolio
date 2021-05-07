@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Nav from "../components/Nav"
+import HomeHeader from "../components/HomeHeader";
 import Header from "../components/Header";
 import AboutSection from "../components/AboutSection";
 import BackgroundImage from "../components/BackgroundImage";
@@ -13,6 +14,7 @@ function About () {
             <BackgroundImage image={imageUrl}>
                 <Nav />
                 <Header />
+                <HomeHeader />
                 <AboutSection />
             </BackgroundImage>
         </div>

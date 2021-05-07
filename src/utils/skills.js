@@ -1,7 +1,7 @@
 // a file for js functions for displaying the skills 
 // dividing skill from backend to frontend 
 
-const backend = [
+const backEnd = [
     "Express.js",
     "Node.js",
     "MySQL",
@@ -10,7 +10,7 @@ const backend = [
     "MongoDB"
 ];
 
-const frontend = [
+const frontEnd = [
     "React",
     "HTML",
     "CSS",
@@ -25,4 +25,4 @@ const languages = [
     "JSX"
 ]
 
-export { backend, frontend, languages};
+export { backEnd, frontEnd, languages};

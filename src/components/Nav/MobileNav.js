@@ -11,7 +11,7 @@ function MobileNav() {
                     <li><Link to="/about" className="nav-item mobile-nav-item">About</Link></li>
                     <li><Link to="/portfolio" className="nav-item mobile-nav-item">Portfolio</Link></li>
                     <li><Link to="/skills" className="nav-item mobile-nav-item">Skills</Link></li>
-                    <li><Link to="/contact" className="nav-item mobile-nav-item">Contact</Link></li>
+                    <li><a uk-toggle="target: #contact-canvas" className="nav-item mobile-nav-item">Contact</a></li>
                 </ul>
             </div>
         </div>
