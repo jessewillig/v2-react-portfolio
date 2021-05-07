@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function Nav() {
+function SkillCard (props) {
     return (
         <div className="uk-text-center client-side-card">
             <div className={`uk-card uk-card-default ${props.name}-card ${props.animate}`}>
@@ -21,5 +21,5 @@ function Nav() {
     )
 };
 
-export default Nav;
+export default SkillCard;
 

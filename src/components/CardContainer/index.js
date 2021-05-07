@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 
-function CardContainer() {
+function CardContainer(props) {
     return (
         <div className="uk-container card-container">
-            {PaymentResponse.children}
+            {props.children}
         </div>
     )
 };

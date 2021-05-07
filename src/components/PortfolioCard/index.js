@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-function PortfolioCard() {
+function PortfolioCard(props) {
     return (
         <div>
             <div className="uk-card uk-card-default portfolio-card">
@@ -13,7 +13,7 @@ function PortfolioCard() {
                                 <p className="project-description">{props.about}</p>
                             </li>
                             <li>
-                                <img src={props.imgURL} alt="" uk-cover="true" />
+                                <img src={props.imgUrl} alt="" uk-cover="true" />
                             </li>
                         </ul>
                         <a className="uk-position-top-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next="true" uk-slideshow-item="next"></a>
@@ -21,10 +21,10 @@ function PortfolioCard() {
                 </div>
                 <div className="uk-card-footer portfolio-card-footer">
                     <div className="uk-text-center">
-                        <a href={props.siteURL} target="_blank" className="btn-link">
+                        <a href={props.siteUrl} target="_blank" className="btn-link">
                             <button className="uk-button uk-button-default portfolio-btn">View Website</button>
                         </a>
-                        <a href={props.repoURL} target="_blank" className="btn-link">
+                        <a href={props.repoUrl} target="_blank" className="btn-link">
                             <button className="uk-button uk-button-default portfolio-btn">GitHub Repo</button>
                         </a>
                     </div>
