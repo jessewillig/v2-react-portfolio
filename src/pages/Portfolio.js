@@ -9,7 +9,7 @@ import portfolioData from "../utils/portfolio";
 function Portfolio () {
     return (
         <div>
-        {/* <BackgroundImage image={imageURL} > */}
+        {/* <BackgroundImage image={imageUrl} > */}
             <Nav />
             <Header padding={70} title="Portfolio" />
             <CardContainer>

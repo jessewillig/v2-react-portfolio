@@ -9,7 +9,7 @@ import { frontEnd, backEnd, languages } from "../utils/skills";
 function Skills () {
     return (
         <div>
-            {/* <BackgroundImage image={imageURL} > */}
+            {/* <BackgroundImage image={imageUrl} > */}
             <Nav />
             <Header padding={70} title="Technical Skills" />
             <CardContainer>
