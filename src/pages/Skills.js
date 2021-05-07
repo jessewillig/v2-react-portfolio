@@ -7,7 +7,7 @@ import { frontEnd, backEnd, languages } from "../utils/skills";
 import BackgroundImage from "../components/BackgroundImage";
 import imageUrl from "../images/backgroundImage.jpg";
 
-function Skills () {
+function Skills (props) {
     return (
         <div>
             <BackgroundImage image={imageUrl} >
