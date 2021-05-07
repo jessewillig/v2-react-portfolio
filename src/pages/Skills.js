@@ -16,23 +16,23 @@ function Skills () {
                 <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
                     <SkillCard
                         skills={frontEnd}
-                        title="Client Side"
+                        title="Front End"
                         icon="desktop"
-                        name="client"
+                        name="frontEnd"
                         animate="slide-left"
                     />
                     <SkillCard
                         skills={backEnd}
-                        title="Server Side"
+                        title="Back End"
                         icon="server"
-                        name="server"
+                        name="backEnd"
                         animate="slide-up"
                     />
                     <SkillCard
                         skills={languages}
-                        title="Design"
+                        title="Languages"
                         icon="paint-bucket"
-                        name="design"
+                        name="languages"
                         animate="slide-right"
                     />
                 </div>

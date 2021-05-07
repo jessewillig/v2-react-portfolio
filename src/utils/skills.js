@@ -2,19 +2,27 @@
 // dividing skill from backend to frontend 
 
 const backend = [
-    "Express",
-    "Nodejs",
-    "Mysql"
+    "Express.js",
+    "Node.js",
+    "MySQL",
+    "Handlebars",
+    "Sequelize",
+    "MongoDB"
 ];
 
 const frontend = [
-    "javascript",
-    "bootstrap",
-    "responsive web design"
+    "React",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+    "Bootstrap, Bulma, UIKit",
 ]
 
 const languages = [
-    ""
+    "JavaScript",
+    "CSS",
+    "JSX"
 ]
 
 export { backend, frontend, languages};

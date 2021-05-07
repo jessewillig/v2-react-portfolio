@@ -27,7 +27,7 @@ const budgetTrackerCard = new ProjectCard(
 
 const fitnessTrackerCard = new ProjectCard(
     "Fitness Tracker",
-    "With this fitness tracker the user can create custom workout plans and track them! This application utilizes Node JS, Express, and Mongoose DB. This app has full Create, Read and Update functionality for all entered info. For this application I used JQery, Node.js and Mongoose.",
+    "With this fitness tracker the user can create custom workout plans and track them! This application utilizes Node JS, Express, and Mongoose DB. This app has full Create, Read and Update functionality for all entered info. For this application I used jQuery, Node.js and Mongoose.",
     fitnessTrackerPic1,
     fitnessTrackerPic2,
     "https://limitless-meadow-66832.herokuapp.com/",
@@ -62,7 +62,7 @@ const cureForBoredomCard = new ProjectCard(
 
 const weatherAppCard = new ProjectCard(
     "Weather Dashboard",
-    "This weather Dashboard is designed to give you current, up-to-date weather whenever you need it for whichever city of your choosing! It will show you the city name, date, temperature, wind speed and humidity. It was build using HTML, CSS, Bootstrap and JQuery.",
+    "This weather Dashboard is designed to give you current, up-to-date weather whenever you need it for whichever city of your choosing! It will show you the city name, date, temperature, wind speed and humidity. It was build using HTML, CSS, Bootstrap and jQuery.",
     weatherAppPic,
     "https://jessewillig.github.io/WeatherDashboard/",
     "https://github.com/jessewillig/WeatherDashboard"
