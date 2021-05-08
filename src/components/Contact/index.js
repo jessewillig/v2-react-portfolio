@@ -34,6 +34,12 @@ function Contact() {
                         <a className="contact-link contact-li uk-text-bottom" href="https://www.linkedin.com/in/jessewillig/"
                             target="_blank">Jesse Willig</a>
                     </li>
+                    {/* <li>
+                        <a uk-icon="icon: file-text" className="contact-icon contact-link-icon"
+                            target="../images/JW-Resume.pdf"></a>
+                        <a className="contact-link contact-li uk-text-middle"
+                            href="">Resume</a>
+                    </li> */}
                 </ul>
             </div>
         </div>
