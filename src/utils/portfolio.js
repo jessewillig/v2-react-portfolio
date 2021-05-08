@@ -8,11 +8,10 @@ import cureForBoredomPic from "../images/portfolio/cure.png";
 // import cureForBoredomPic from "../images/portfolio/cure2.png";
 import weatherAppPic from "../images/portfolio/weatherapp.png";
 
-function ProjectCard (title, about, imageUrl, siteUrl, repoUrl) {
+function ProjectCard (title, about, imgUrl, siteUrl, repoUrl) {
     this.title = title;
     this.about = about;
-    this.imageUrl = imageUrl;
-    this.imageUrl = imageUrl;
+    this.imgUrl = imgUrl;
     this.siteUrl = siteUrl;
     this.repoUrl = repoUrl;
 };
