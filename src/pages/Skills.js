@@ -29,13 +29,13 @@ function Skills (props) {
                         name="backEnd"
                         animate="slide-up"
                     />
-                    <SkillCard
+                    {/* <SkillCard
                         skills={languages}
                         title="Languages"
                         icon="code"
                         name="languages"
                         animate="slide-right"
-                    />
+                    /> */}
                 </div>
             </CardContainer>
         </BackgroundImage>

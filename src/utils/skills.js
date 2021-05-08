@@ -20,9 +20,7 @@ const frontEnd = [
 ]
 
 const languages = [
-    "JavaScript",
-    "CSS",
-    "JSX"
+    "JavaScript"
 ]
 
 export { backEnd, frontEnd, languages};
