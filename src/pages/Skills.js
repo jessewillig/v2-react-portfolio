@@ -14,7 +14,7 @@ function Skills (props) {
             <Nav />
             <Header padding={70} title="Technical Skills" />
             <CardContainer>
-                <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
+                <div className="uk-child-width-1-2@m uk-grid-match" uk-grid="true" id="skills-section">
                     <SkillCard
                         skills={frontEnd}
                         title="Front End"
@@ -27,7 +27,7 @@ function Skills (props) {
                         title="Back End"
                         icon="server"
                         name="backEnd"
-                        animate="slide-up"
+                        animate="slide-right"
                     />
                     {/* <SkillCard
                         skills={languages}

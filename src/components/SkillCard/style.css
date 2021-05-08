@@ -17,10 +17,10 @@
   animation-duration: 3s;
 }
 
-.slide-up {
+/* .slide-up {
   animation: slideInUp;
   animation-duration: 3s;
-}
+} */
 
 @media only screen and (min-width: 960px) {
     .design-card-footer {
