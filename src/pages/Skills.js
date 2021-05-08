@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Header from "../components/Header";
 import CardContainer from "../components/CardContainer";
 import SkillCard from "../components/SkillCard";
-import { frontEnd, backEnd, languages } from "../utils/skills";
+import { frontEnd, backEnd } from "../utils/skills";
 import BackgroundImage from "../components/BackgroundImage";
 import imageUrl from "../images/backgroundImage.jpg";
 

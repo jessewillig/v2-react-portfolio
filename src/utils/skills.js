@@ -19,8 +19,8 @@ const frontEnd = [
     "Bootstrap, Bulma, UIKit",
 ]
 
-const languages = [
-    "JavaScript"
-]
+// const languages = [
+//     "JavaScript"
+// ]
 
-export { backEnd, frontEnd, languages};
+export { backEnd, frontEnd };
