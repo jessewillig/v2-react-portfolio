@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/JW-Resume.pdf";
+import resume from "../images/JWResume.pdf";
 
 function ResumeModal () {
     return (

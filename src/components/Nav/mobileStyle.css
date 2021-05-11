@@ -1,0 +1,27 @@
+/* .nav-item {
+    font-weight: 100;
+}
+.navbar {
+    background-color: white;
+}
+.menu-icon {
+    color: #0084B2;
+    padding: 10%;
+} */
+/* .uk-navbar-center:only-child, .uk-navbar-left, .uk-navbar-right {
+    margin-left: 0%;
+}
+.mobile-nav-item{
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: 100;
+    color: #0084B2 !important;
+    text-transform: uppercase;
+}
+.uk-offcanvas-bar {
+    background-color: #0084B2 !important;
+} */
+
+#menu-icon {
+    color:blue;
+}
