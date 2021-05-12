@@ -1,4 +1,4 @@
-# [React Portfolio]()
+# [React Portfolio](https://jessewillig.github.io/v2-react-portfolio/#/)
 
 ## Description
 
@@ -21,7 +21,7 @@ Thanks for checking it out!
 * [Animate.css](https://animate.style/)
 
 ## Deployed application
-View deployed site [here](). <br>
+View deployed site [here](https://jessewillig.github.io/v2-react-portfolio/#/). <br>
 
 ![](src/images/assets/portfolio.gif)
 
