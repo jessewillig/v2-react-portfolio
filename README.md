@@ -2,7 +2,11 @@
 
 ## Description
 
-<!-- pictures of portfolio -->
+<p float="left">
+<img src="src/images/assets/home.png" alt="Login Page Image" width="45%" style="margin: 10px;"/>
+<img src="src/images/assets/about.png" alt="About Image" width="45%" style="margin: 10px;"/><br>
+<img src="src/images/assets/portfolio.png" alt="Portfolio Image" width="45%" style="margin: 10px;"/>
+<img src="src/images/assets/skills.png" alt="Skills Image" width="45%" style="margin: 5px;"/><br>
 
 ## Technologies Used
 * React
