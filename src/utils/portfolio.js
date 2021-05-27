@@ -16,6 +16,14 @@ function ProjectCard (title, about, imgUrl, siteUrl, repoUrl) {
     this.repoUrl = repoUrl;
 };
 
+// const budgetTrackerCard = new ProjectCard(
+//     "Budget Tracker",
+//     "An application designed to track your budget online and offline. Add and subtract from your total to create an accurate number and track your spending habits! For this application I used Node.js, Express, Compression, Mongoose, Morgan and Lite-Server.",
+//     budgetTrackerPic,
+//     "https://glacial-cliffs-36068.herokuapp.com/",
+//     "https://github.com/jessewillig/Budget-Tracker"
+// );
+
 const budgetTrackerCard = new ProjectCard(
     "Budget Tracker",
     "An application designed to track your budget online and offline. Add and subtract from your total to create an accurate number and track your spending habits! For this application I used Node.js, Express, Compression, Mongoose, Morgan and Lite-Server.",
