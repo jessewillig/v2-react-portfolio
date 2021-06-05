@@ -76,6 +76,6 @@ const weatherAppCard = new ProjectCard(
     "https://github.com/jessewillig/WeatherDashboard"
 );
 
-let portfolio = [budgetTrackerCard, fitnessTrackerCard, dankReviewsCard, noteTakerCard, cureForBoredomCard, weatherAppCard];
+let portfolio = [takeAHikeCard, budgetTrackerCard, fitnessTrackerCard, dankReviewsCard, noteTakerCard, cureForBoredomCard, weatherAppCard];
 
 export default portfolio;
