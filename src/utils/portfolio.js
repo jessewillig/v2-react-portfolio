@@ -7,6 +7,7 @@ import noteTakerPic from "../images/portfolio/notetaker.png";
 import cureForBoredomPic from "../images/portfolio/cure.png";
 // import cureForBoredomPic from "../images/portfolio/cure2.png";
 import weatherAppPic from "../images/portfolio/weatherapp.png";
+import hikePic from "../images/portfolio/takeahike.png";
 
 function ProjectCard (title, about, imgUrl, siteUrl, repoUrl) {
     this.title = title;
@@ -16,13 +17,13 @@ function ProjectCard (title, about, imgUrl, siteUrl, repoUrl) {
     this.repoUrl = repoUrl;
 };
 
-// const takeAHikeCard = new ProjectCard(
-//     "Take A Hike!",
-//     "This web application allows the user to view and save hikes in a chosen location, displays the weather for the area hiking in, and allows the user to rate/review the hike. It uses MERN Stack (MongoDB, Express, React, Node), React.js, UIKit, Axioz and Express.",
-//     hikePic,
-//     "",
-//     "https://github.com/jessewillig/Take-A-Hike"
-// );
+const takeAHikeCard = new ProjectCard(
+    "Take A Hike!",
+    "This web application allows the user to view and save hikes in a chosen location, displays the weather for the area hiking in. It uses MERN Stack (MongoDB, Express, React, Node), React.js, UIKit, Axioz and Express.",
+    hikePic,
+    "https://tranquil-scrubland-42356.herokuapp.com/",
+    "https://github.com/jessewillig/Take-A-Hike"
+);
 
 const budgetTrackerCard = new ProjectCard(
     "Budget Tracker",
